@@ -35,7 +35,6 @@ function twoNumberSum(array, targetSum) {
   array.sort((a, b) => {
     return a - b;
   });
-  console.log(array);
   let leftPointer = 0,
     rightPointer = array.length - 1;
   while (leftPointer < rightPointer) {
